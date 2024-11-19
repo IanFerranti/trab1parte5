@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Ian Ferranti">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Clínica ABC Health</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Clínica ABC Health</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="login-container">
+            <form action="processar_login.php" method="POST">
+                <label for="username">Usuário:</label>
+                <input type="text" id="username" name="username" placeholder="Digite seu usuário" required>
+                
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" placeholder="Digite sua senha" required>
+                
+                <button type="submit">Entrar</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <address>
+            Endereço: Parque da Quinta da Boa Vista S/N, São Cristóvão, RJ, 20940-040.
+        </address>
+        <p>E-mail: clinicaabc@gmail.com</p>
+    </footer>
+
+</body>
+
+</html>
